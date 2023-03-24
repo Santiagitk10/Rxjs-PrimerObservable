@@ -27,7 +27,7 @@ body {
   flex-direction: column;
 }
 
-.letter-column {
+.letter {
   display: flex;
   justify-content: center;
   align-items: center;

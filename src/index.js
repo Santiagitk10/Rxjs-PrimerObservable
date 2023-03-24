@@ -416,12 +416,12 @@ const checkWord = {
       return;
     }
 
-    if (!WORDS_LIST.includes(userAnswer.join(""))) {
-      messageText.textContent = `¡La palabra ${userAnswer
-        .join("")
-        .toUpperCase()} no está en la lista!`;
-      return;
-    }
+    // if (!WORDS_LIST.includes(userAnswer.join(""))) {
+    //   messageText.textContent = `¡La palabra ${userAnswer
+    //     .join("")
+    //     .toUpperCase()} no está en la lista!`;
+    //   return;
+    // }
 
     // También podemos cambiar el ciclo for/forEach/while en lugar de `userAnswer.map()`
     // Iteramos sobre las letras en índices `[0, 1, 2, 3, 4]`:
