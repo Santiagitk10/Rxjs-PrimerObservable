@@ -416,6 +416,7 @@ const checkWord = {
       return;
     }
 
+    //ESTA VALIDACIÓN DAÑA LA LÓGICA DEL JUEGO
     // if (!WORDS_LIST.includes(userAnswer.join(""))) {
     //   messageText.textContent = `¡La palabra ${userAnswer
     //     .join("")
